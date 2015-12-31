@@ -1,0 +1,71 @@
+markdown: redcarpet
+name: Objectives and Key Results - DRAFT
+exclude:
+- CONTRIBUTING.md
+- Gemfile
+- Gemfile.lock
+- LICENSE.md
+- README.md
+- go
+- vendor
+
+permalink: pretty
+highlighter: rouge
+incremental: true
+
+sass:
+  style: :compressed
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: 18F
+  url: https://18f.gsa.gov
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: /assets/img/18f-logo.png
+logoalt: 18F logo
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Introduction
+  url: index.html
+  internal: true
+- text: Impact
+  url: impact/
+  internal: true
+- text: Outcomes
+  url: outcomes/
+  internal: true
+- text: Adverse effects
+  url: adverse-effects/
+  internal: true
+- text: Metrics
+  url: metrics/
+  internal: true
+- text: Actions
+  url: actions/
+  internal: true
+- text: Building OKRs
+  url: building-okrs/
+  internal: true
+- text: 'Bonus: identify assumptions'
+  url: assumptions/
+  internal: true
+
+repos:
+- name: Guides Template
+  description: Main repository
+  url: https://github.com/18F/objectives-and-key-results
+
+back_link:
+  url: "https://pages.18f.gov/guides/"
+  text: Read more 18F Guides
+
+google_analytics_ua: UA-48605964-19
+
+defaults:
+- scope:
+    path: ""
+  values:
+    layout: "guides_style_18f_default"

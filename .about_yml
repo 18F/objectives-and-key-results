@@ -1,0 +1,114 @@
+---
+# .about.yml project metadata
+#
+# Short name that acts as the project identifier (required)
+name: objectives-and-key-results
+
+# Full proper name of the project (required)
+full_name: Objectives and Key Results Guide
+
+# The type of content in the repo
+# values: app, docs, policy
+type: docs
+
+# Describes whether a project team, working group/guild, etc. owns the repo (required)
+# values: guild, working-group, project
+owner_type: guild
+
+# Name of the main project repo if this is a sub-repo; name of the working group/guild repo if this is a working group/guild subproject
+#parent:
+
+# Maturity stage of the project (required)
+# values: discovery, alpha, beta, live, sunset, transfer, end
+#stage:
+
+# Description of the project
+description: |
+  Objectives and Key Results (OKRs) are a way to define and track goals and
+  the results that indicate you’ve reached those goals. The lean movment
+  encourages focusing on outcomes rather than outputs. This is a quick guide
+  to creating OKRs in that spirit.
+
+# Tags that describe the project or aspects of the project
+tags:
+- OKRs
+- Lean UX
+
+# Should this repo have automated tests? If so, set to `true`. (required)
+# values: true, false
+testable: false
+
+# Team members contributing to the project (required)
+# Items:
+# - github: GitHub user name
+#   id: Internal team identifier/user name
+#   role: Team member's role; leads should be designated as 'lead'
+team:
+- github: brethauer
+  role: lead
+- github: colinpmacarthur
+- github: meiqimichelle
+- github: mbland
+
+# Partners for whom the project is developed
+#partners:
+#- 
+
+# Organizations or individuals who have adopted the project for their own use
+# Items:
+# - id: The name of the organization or individual
+#   url: A URL to the user's version of the project
+#users:
+#- 
+
+# Brief descriptions of significant project developments
+#milestones:
+#- 
+
+# Technologies used to build the project
+stack:
+- Ruby
+- Jekyll
+
+# Brief description of the project's outcomes
+#impact:
+
+# Services used to supply project status information
+# Items:
+# - name: Name of the service
+#   category: Type of the service
+#   url: URL for detailed information
+#   badge: URL for the status badge
+#services:
+#- 
+
+# Licenses that apply to the project and/or its components (required)
+# Items by property name pattern:
+#   .*:
+#     name: Name of the license from the Software Package Data Exchange (SPDX): https://spdx.org/licenses/
+#     url: URL for the text of the license
+licenses:
+  objectives-and-key-results:
+    url: https://github.com/18F/objectives-and-key-results/blob/master/LICENSE.md
+
+# Blogs or websites associated with project development
+#blog:
+#- 
+
+# Links to project artifacts
+# Items:
+# - url: URL for the link
+#   text: Anchor text for the link
+links:
+- url: https://pages.18f.gov/objectives-and-key-results/
+  text: Published document
+- url: https://pages-staging.18f.gov/objectives-and-key-results/
+  text: Staging version of the document
+
+# URIs for points-of-contact
+# Items:
+# - url: URL for the link
+#   text: Anchor text for the link
+contact:
+- url: https://github.com/18F/objectives-and-key-results/issues/
+  text: 18F/objectives-and-key-results GitHub issues
